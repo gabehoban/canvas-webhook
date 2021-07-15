@@ -15,6 +15,8 @@ $ cd canvas-webhook && cp .env.example .env
 ```bash
 $ nano .env
 ```
+Register the webhook on snipcart's dashboard as `https://CANVAS_DOMAIN:3000/hook`
+
 Server the program:
 ```bash
 $ node index.js
